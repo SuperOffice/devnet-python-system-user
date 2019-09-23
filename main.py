@@ -1,15 +1,3 @@
-# devnet-python-system-user
-
-Demonstrates how to obtain a system user ticket from a system user token.
-
-## Try It Out
-
-Update the following files:
-
-1. private key file: private.xml or private.pem
-2. main.py: change the following five settings:
-
-```python
 from SystemUserToken import SystemUserToken
 
 # create instance of SystemUserToken
@@ -29,4 +17,3 @@ ticket = systemuser.get_system_user_ticket(
     'system_user_token', 'context_identifier')
 
 print('System user ticket: ' + ticket)
-```

@@ -1,0 +1,4 @@
+suds-jurko
+pyOpenSSL
+PyCryptodome
+jwt
